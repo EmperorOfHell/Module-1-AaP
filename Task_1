@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void)
+{
+   int N = 0, max = 0, sum = 0, i = 1;
+   while (N < 1)
+   {
+    printf("Введіть число N: ");
+    scanf ("%i", &N);
+   }
+   while (sum < N) {
+        sum += i;
+        i++;
+   }
+
+   printf("Max K: %i, Сума чисел: %i\n", i - 1, sum);
+   return 0;
+}
