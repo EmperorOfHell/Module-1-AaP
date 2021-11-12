@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int k = 1, a = 0 , b = 0;
+    printf("Введіть число A: ");
+    scanf("%i", &a);
+    do
+    {
+
+     printf("Введіть число B: ");
+     scanf("%i", &b);
+
+    } while(a > b);
+
+    for (int i = a; i <= b; i++)
+    {
+        k *= i;
+
+    }
+
+    printf("Добуток даних чисел рівний : %i", k);
+}
